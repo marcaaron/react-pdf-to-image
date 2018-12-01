@@ -1,6 +1,6 @@
 {
   "name": "react-pdf-to-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Component for transforming pdf files to image data urls",
   "main": "dist/index.js",
   "scripts": {
