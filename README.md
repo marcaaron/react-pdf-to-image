@@ -1,12 +1,6 @@
 # react-pdf-to-image
 
-A a render prop component wrapper around pdf.js that asynchronously converts PDF files into data URLs in the browser.
-
-## Install
-
-`yarn add react-pdf-to-image`
-
-`npm i --save react-pdf-to-image`
+A a render prop component wrapper around [pdf.js](https://github.com/mozilla/pdf.js) that asynchronously converts PDF files into data URLs in the browser.
 
 ## Example Usage
 
@@ -32,7 +26,7 @@ export default App;
 ```
 
 ## Issues
-- Relies on the pdf.js distribution from Mozilla which uses a web worker. Currently in order to get this working the `pdfjs-dist/build/pdf.worker.js` file must be included in your projects build foldler and does not work in Webpack while running in development mode.
+- Relies on the [pdf.js distribution from Mozilla](https://github.com/mozilla/pdf.js) which uses a web worker. Currently in order to get this working the `pdfjs-dist/build/pdf.worker.js` file must be included in your projects build foldler and does not work in Webpack while running in development mode.
 
 - Not optimized for loading very large multi-page PDFs and works best when used to convert simple single page documents to Image URLs
 
