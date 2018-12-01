@@ -1,4 +1,4 @@
-# react-pdf-to-img
+# react-pdf-to-image
 
 A a render prop component wrapper around pdf.js that asynchronously converts PDF files into data URLs in the browser.
 
