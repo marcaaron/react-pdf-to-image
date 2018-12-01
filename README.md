@@ -2,11 +2,17 @@
 
 A a render prop component wrapper around pdf.js that asynchronously converts PDF files into data URLs in the browser.
 
+## Install
+
+`yarn add react-pdf-to-image`
+
+`npm i --save react-pdf-to-image`
+
 ## Example Usage
 
 ```
 import React from 'react';
-import {PDFtoIMG} from 'react-pdf-to-img';
+import {PDFtoIMG} from 'react-pdf-to-image';
 import file from './pdf-sample.pdf';
 
 const App = () =>
